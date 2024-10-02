@@ -13,7 +13,7 @@ body {
   align-content: center;
   font-size: 32px;
   font-weight: 900;
-  padding: 16px;
+  padding:0 16px;
 }
 
 
@@ -35,15 +35,16 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 0 16px;
   min-width: 300px;
 }
 
 .cards {
-  padding: 16px;
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 32px;
+
 }
 
 .card {
@@ -52,13 +53,15 @@ body {
   border-radius: 4px;
   min-width: 150px;
   max-width: 300px;
-  
+  padding: 16px;
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
-
+  gap: 16px;
 }
 
 a {
